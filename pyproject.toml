@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "thales-ramanujan-quarter-gamma"
+version = "1.0.0"
+description = "Reproducibility companion: shared quarter-gamma lattice and the limits of the Thales-Ramanujan analogy"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Elias De Jesús", email = "dejesuselias10@gmail.com" }]
+keywords = [
+    "ramanujan",
+    "hypergeometric",
+    "clausen-identity",
+    "beta-function",
+    "gamma-function",
+    "lemniscatic-period",
+    "reproducibility",
+]
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+dependencies = ["sympy>=1.12", "mpmath>=1.3.0"]
+
+[project.optional-dependencies]
+test = ["pytest>=7.4"]
+
+[project.urls]
+Manuscript = "https://doi.org/10.5281/zenodo.20665588"
+"Manuscript (version reproduced)" = "https://doi.org/10.5281/zenodo.20672985"
+# REPLACE: set USERNAME to the actual GitHub account or organisation.
+Repository = "https://github.com/USERNAME/thales-ramanujan-quarter-gamma"
+
+[tool.setuptools]
+packages = ["thales_ramanujan"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

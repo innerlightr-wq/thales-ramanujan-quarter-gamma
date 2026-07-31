@@ -1,0 +1,5 @@
+generating_function,hypergeometric_form,a,b,c,clausen_condition_applies,required_c,clausen_condition_holds,note
+G_beta(z) = sum J(n) z^n,"2F1(1, 1; 3/2; z/4)",1,1,3/2,yes,5/2,no,integer Thales beta moments; Clausen condition fails
+"G_arc(z) = sum 4^(-n) C(2n,n) z^n",1F0(1/2; ; z) = (1-z)^(-1/2),1/2,,,no,,no,no second numerator and no denominator parameter; condition does not apply
+G_arc(z)^2,1F0(1; ; z) = (1-z)^(-1),1,,,no,,no,degenerate square; carries no modular content
+Ramanujan square root (positive control),"2F1(1/8, 3/8; 1; 256 z)",1/8,3/8,1,yes,1,yes,Clausen condition holds; square is the 3F2 of manuscript eq. (3)

@@ -1,0 +1,71 @@
+cff-version: 1.2.0
+message: >-
+  If you use this repository, please cite the manuscript it accompanies (see
+  `preferred-citation`). Zenodo is the authoritative archival location for the
+  paper; this repository is the reproducibility and verification companion
+  only. The concept DOI 10.5281/zenodo.20665588 always resolves to the latest
+  version of the manuscript. The specific deposited version whose identities
+  this repository reproduces is 10.5281/zenodo.20672985.
+title: >-
+  Reproducibility companion: shared quarter-gamma lattice and the limits of the
+  Thales-Ramanujan analogy
+abstract: >-
+  Symbolic and arbitrary-precision verification of the exact identities in
+  "Ramanujan's Formula for 1/pi and the Thales Integral Witness", together with
+  the demonstrated obstruction at which the analogy stops. Covers the
+  quarter-parameter coefficient lattice, the Thales beta family and its gamma
+  strata, the conjugate-stratum reflection product, the lemniscatic period
+  relation, arcsine and central-binomial moments, the mirror-tilt diagnostic,
+  the Clausen parameter obstruction for the tested generating functions, and
+  the digamma/trigamma parameter-response hierarchy.
+type: software
+authors:
+  - family-names: "De Jesús"
+    given-names: Elias
+    orcid: "https://orcid.org/0009-0007-0190-9143"
+    email: dejesuselias10@gmail.com
+    affiliation: Independent Researcher
+version: 1.0.0
+# REPLACE: set to the actual date of the GitHub release (YYYY-MM-DD).
+date-released: "2026-01-01"
+# REPLACE: set USERNAME to the actual GitHub account or organisation.
+repository-code: "https://github.com/USERNAME/thales-ramanujan-quarter-gamma"
+url: "https://doi.org/10.5281/zenodo.20665588"
+license: MIT
+keywords:
+  - Ramanujan series for 1/pi
+  - hypergeometric functions
+  - Clausen identity
+  - beta and gamma functions
+  - Euler reflection
+  - lemniscatic period
+  - complex multiplication
+  - binary partition geometry
+  - reproducibility
+preferred-citation:
+  type: article
+  title: "Ramanujan's Formula for 1/pi and the Thales Integral Witness"
+  authors:
+    - family-names: "De Jesús"
+      given-names: Elias
+      orcid: "https://orcid.org/0009-0007-0190-9143"
+  year: 2026
+  publisher:
+    name: Zenodo
+  doi: "10.5281/zenodo.20665588"
+  url: "https://doi.org/10.5281/zenodo.20665588"
+  notes: >-
+    The DOI given is the concept DOI, which always resolves to the latest
+    version. The version-specific DOI reproduced by this repository is
+    10.5281/zenodo.20672985.
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20665588"
+    description: >-
+      Concept DOI of the manuscript; always resolves to the latest version.
+      Preferred identifier.
+  - type: doi
+    value: "10.5281/zenodo.20672985"
+    description: >-
+      Version-specific DOI of the deposited manuscript version reproduced by
+      this repository.
