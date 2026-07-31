@@ -34,8 +34,8 @@ test = ["pytest>=7.4"]
 [project.urls]
 Manuscript = "https://doi.org/10.5281/zenodo.20665588"
 "Manuscript (version reproduced)" = "https://doi.org/10.5281/zenodo.20672985"
-# REPLACE: set USERNAME to the actual GitHub account or organisation.
-Repository = "https://github.com/USERNAME/thales-ramanujan-quarter-gamma"
+# REPLACE: set innerlightr-wq to the actual GitHub account or organisation.
+Repository = "https://github.com/innerlightr-wq/thales-ramanujan-quarter-gamma"
 
 [tool.setuptools]
 packages = ["thales_ramanujan"]

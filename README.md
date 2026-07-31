@@ -116,7 +116,7 @@ Read that file before drawing any conclusion from the outputs.
 Python 3.11 or later.
 
 ```bash
-git clone https://github.com/USERNAME/thales-ramanujan-quarter-gamma.git   # ← replace USERNAME
+git clone https://github.com/innerlightr-wq/thales-ramanujan-quarter-gamma.git   # ← replace innerlightr-wq
 cd thales-ramanujan-quarter-gamma
 pip install -r requirements.txt
 ```

@@ -27,9 +27,9 @@ authors:
     affiliation: Independent Researcher
 version: 1.0.0
 # REPLACE: set to the actual date of the GitHub release (YYYY-MM-DD).
-date-released: "2026-01-01"
-# REPLACE: set USERNAME to the actual GitHub account or organisation.
-repository-code: "https://github.com/USERNAME/thales-ramanujan-quarter-gamma"
+date-released: "2026-07-31"
+# REPLACE: set innerlightr-wq to the actual GitHub account or organisation.
+repository-code: "https://github.com/innerlightr-wq/thales-ramanujan-quarter-gamma"
 url: "https://doi.org/10.5281/zenodo.20665588"
 license: MIT
 keywords:
