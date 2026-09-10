@@ -111,19 +111,34 @@ Read that file before drawing any conclusion from the outputs.
 
 ---
 
-## Related material
+## Related RVP Research
 
-This repository also hosts a self-contained technical note testing a separate
-question: whether this repository's own elliptic/modular-period geometry (or
-ordinary strain-eigenvalue anisotropy) adds information beyond the scalar
-strain–rotation partition used in the author's separate fluid-mechanics note,
-RVP. It is a documentation record of a completed falsification-first audit,
-not part of the Ramanujan/Thales manuscript above, and it does not modify any
-claim in it. See
-[`docs/RVP_GEOMETRY_ALIGNMENT_AUDIT.md`](docs/RVP_GEOMETRY_ALIGNMENT_AUDIT.md) —
-tests whether ellipticity, strain-eigenvalue shape, or Thales
-complementary-modulus geometry adds information beyond the scalar
-strain–rotation partition.
+### The Relational Vortex Principle (RVP)
+
+> De Jesús, Elias. (2026). *The Relational Vortex Principle (RVP): A General
+> Condition for Rotational Coherence in Asymmetric Transport Systems*. Zenodo.
+> https://doi.org/10.5281/zenodo.22675817
+
+The Relational Vortex Principle investigates rotational coherence in asymmetric
+transport systems through the relationship between strain, rotation, and
+vorticity. Recent analysis associated with this repository further distinguishes
+scalar strain–rotation magnitude balance from the dynamically relevant
+strain–vorticity interaction
+
+```
+P = ω · S ω.
+```
+
+A central finding is that a scalar strain–rotation partition does not determine
+this interaction: strain eigenvalue geometry and the orientation of vorticity
+carry independent information. The accompanying geometry/alignment audit also
+tests whether the Thales–Legendre elliptic-modulus structure developed in this
+repository supplies that missing information. The natural mapping is exact but
+redundant, reinforcing an important methodological distinction between an exact
+mathematical correspondence and an independent physical mechanism.
+
+See:
+[`docs/RVP_GEOMETRY_ALIGNMENT_AUDIT.md`](docs/RVP_GEOMETRY_ALIGNMENT_AUDIT.md)
 
 ---
 
