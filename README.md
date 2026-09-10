@@ -111,6 +111,22 @@ Read that file before drawing any conclusion from the outputs.
 
 ---
 
+## Related material
+
+This repository also hosts a self-contained technical note testing a separate
+question: whether this repository's own elliptic/modular-period geometry (or
+ordinary strain-eigenvalue anisotropy) adds information beyond the scalar
+strain–rotation partition used in the author's separate fluid-mechanics note,
+RVP. It is a documentation record of a completed falsification-first audit,
+not part of the Ramanujan/Thales manuscript above, and it does not modify any
+claim in it. See
+[`docs/RVP_GEOMETRY_ALIGNMENT_AUDIT.md`](docs/RVP_GEOMETRY_ALIGNMENT_AUDIT.md) —
+tests whether ellipticity, strain-eigenvalue shape, or Thales
+complementary-modulus geometry adds information beyond the scalar
+strain–rotation partition.
+
+---
+
 ## Installation
 
 Python 3.11 or later.
@@ -224,7 +240,8 @@ thales-ramanujan-quarter-gamma/
     ├── mathematical_scope.md
     ├── computational_methods.md
     ├── scope_and_nonclaims.md
-    └── zenodo_record.md
+    ├── zenodo_record.md
+    └── RVP_GEOMETRY_ALIGNMENT_AUDIT.md   # separate RVP geometry/alignment audit record
 ```
 
 The mathematics lives in the `thales_ramanujan/` package and the eight
